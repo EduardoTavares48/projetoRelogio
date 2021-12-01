@@ -1,0 +1,36 @@
+html {
+    background-color: #00e078;
+  }
+
+  .fundo {
+    height: 97.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/dia.png);
+    background-repeat: no-repeat;
+  }
+
+  .caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 0.01em 0.03em 0.1em #0FBD2F;
+  }
+  .hora {
+    padding: 2px 25px;
+    background-color: #1E211C;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #12e239;
+    font-family: "Qahiri", sans-serif;
+  }
+  .creditos {
+    color: black;
+    font-size: 1rem;
+  }
+  
