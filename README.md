@@ -2,4 +2,4 @@
 
 ### demonstração do site:
 
-![](demonstracaoCompleta.png)
+![](demonstracaoCompleta.png = 300)
