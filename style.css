@@ -1,36 +1,46 @@
-html {
-    background-color: #00e078;
-  }
+  /* Tira margins e paddings que o navegador coloca por padrão */
+  * { margin: 0; padding: 0; }
+
+  html, body { height: 100vh; }
 
   .fundo {
-    height: 97.5vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-image: url(./img/dia.png);
+    background-size: cover;
     background-repeat: no-repeat;
+    border: 8px solid #12e239;
+    box-sizing: border-box;
   }
 
   .caixa {
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: 10rem;
     color: white;
+    background-color: #1E211C;
+    border: 5px solid #12e239;
     text-shadow: 0.01em 0.03em 0.1em #0FBD2F;
   }
   .hora {
     padding: 2px 25px;
-    background-color: #1E211C;
     border-radius: 10px;
     margin-bottom: 10px;
-    border: 5px solid #12e239;
     font-family: "Qahiri", sans-serif;
   }
   .creditos {
     color: black;
     font-size: 1rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    .caixa { width: 80vw; max-width: 250px; }
+    .hora { font-size: 96px; }
   }
   
